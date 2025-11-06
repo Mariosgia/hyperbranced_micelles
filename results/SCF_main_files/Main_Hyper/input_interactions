@@ -1,0 +1,9 @@
+100.0d0         ! kappa (compressibility parameter for overcompressed melt) kappa*N
+
+61d0        ! chi_SA  (Flory Huggins interaction parameter) chi*N
+27d0         ! chi_SB  (Flory Huggins interaction parameter) 
+30d0         ! chi_AB  (Flory Huggins interaction parameter) 
+
+0.02d0          ! vs volume of solvent S ("point" particle) / N (chain length) 
+1.0d0          ! va volume of monomer_type A  
+1.0d0          ! vb volume of monomer_type B  

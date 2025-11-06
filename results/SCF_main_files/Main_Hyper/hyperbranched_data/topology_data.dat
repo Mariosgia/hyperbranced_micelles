@@ -1,0 +1,6 @@
+# 0.Id 1.Length 2.Type 3.Source node 4.Target node 5.Generation 6. Monomer_type 7.Similar to id 8.Accelerate
+#Mol-* 1.No. segments 
+Number_Molecules, 1
+Mol-1,2 
+1 , 84 , -1 , 0 , 1 , 0 , 1 , 0 , 0
+2 , 84 , 0 , 1 , 2 , 1 , 2 , 0 , 0

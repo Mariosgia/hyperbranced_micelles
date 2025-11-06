@@ -1,0 +1,37 @@
+15.0d0     sizex
+15.0d0     sizey
+15.0d0     sizez
+32         gridx
+32         gridy
+32         gridz
+1          threads
+
+0.001220d0      phibar !In canonical is \Bar{\rho} (v^{^})^{*}
+
+500000      itermax_scf
+25          every_out
+10           every_show
+0.0000000001d0   accuracy_scf
+2		    mixing_type
+0.05d0		lambda !
+
+1       qread
+
+1          geo ! Needed when qqrread is -1. -1 =random 0=Lamellar 1 = Ellipsoid 2=Vesicle 3=Janus 50-50 
+0           blur ! 1=Blurring on 0=Blurring off of init configuration
+0.6d0       sig1 !Blurring coef. for init densities
+0.6d0       sig2
+4d0         init_rr
+3           seed ! Integer seed used in random order initial configuration
+
+2           polymer_ensemble 1=Canonical 2=Grand
+
+0           umbrella
+1d0         um_rr
+0.3d0       um_phi
+
+3     constraint
+0d0     kapcon
+0d0     con_rr
+0d0     con_shift
+3.0d0    asp_ratio
