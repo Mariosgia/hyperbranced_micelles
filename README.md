@@ -1,3 +1,7 @@
+Additional data needed for the ploting of certain graphs are to be found here:
+https://doi.org/10.5281/zenodo.17543605
+Simply unzip in the git directory.
+
 This repository contains all the necessary files for running the analysis and generation of all the results found in the article named:
 
 "Theoretical study on micelle forming Linear-Hyperbranched block copolymers: A comparison between random and well-defined polymer architectures" 
